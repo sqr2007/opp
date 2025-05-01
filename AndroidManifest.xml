@@ -1,6 +1,4 @@
-<application
-    ...>
-
+<!-- النشاط الرئيسي -->
     <activity android:name=".MainActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -8,5 +6,9 @@
         </intent-filter>
     </activity>
 
-    <!-- سنضيف الأنشطة الأخرى لاحقًا هنا -->
+    <!-- نشاط الأسئلة -->
+    <activity android:name=".QuestionActivity" />
+
+    <!-- نشاط النتائج -->
+    <activity android:name=".ResultActivity" />
 </application>
